@@ -22,7 +22,7 @@ An empirical study of the "digital gold" thesis — does Bitcoin behave like gol
 |---|---|---|
 | 1. Pre-ATH Bull | Aug 6 – Oct 6, 2025 | BTC grinding to all-time high of $124,659 (Oct 6) |
 | 2. Post-ATH Drawdown | Oct 7 – Feb 27, 2026 | BTC -45.7% from ATH; crypto risk-off, deleveraging |
-| 3. War | Feb 28 – Apr 7, 2026 | US-Israel strikes on Iran; geopolitical risk |
+| 3. Iran & US War | Feb 28 – Apr 7, 2026 | US-Israel strikes on Iran; geopolitical risk |
 | 4. Post-Ceasefire | Apr 8 – May 14, 2026 | Ceasefire holds; risk-on recovery; inflation fears emerging |
 
 ### Analysis
