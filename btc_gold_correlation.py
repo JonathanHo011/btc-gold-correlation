@@ -12,7 +12,7 @@ REGIMES = {
     "1. Pre-ATH Bull\n(Aug 6 – Oct 6, 2025)":      ("2025-08-06", "2025-10-06"),
     "2. Post-ATH Drawdown\n(Oct 7 – Feb 27)":  ("2025-10-07", "2026-02-27"),
     "3. War\n(Feb 28 – Apr 7)":                  ("2026-02-28", "2026-04-07"),
-    "4. Post-Ceasefire\n(Apr 8 – May 14)":       ("2026-04-08", "2026-05-14"),
+    "4. Post-Ceasefire\n(Apr 8 – May 22)":       ("2026-04-08", "2026-05-22"),
 }
 ROLLING_WINDOW = 20
 OUTPUT_PNG = "btc_gold_correlation.png"
@@ -59,7 +59,7 @@ df["date"] = pd.to_datetime(df["date"])
 df = df.sort_values("date").reset_index(drop=True)
 
 start_dt = pd.Timestamp("2025-08-01")
-end_dt = pd.Timestamp("2026-05-14")
+end_dt = pd.Timestamp("2026-05-22")
 df = df[(df["date"] >= start_dt) & (df["date"] <= end_dt)].copy()
 df = df.dropna(subset=["btc", "gold"])
 
@@ -111,7 +111,7 @@ REGIME_COLORS = {
     "1. Pre-ATH Bull\n(Aug 6 – Oct 6, 2025)":     "#2DC653",
     "2. Post-ATH Drawdown\n(Oct 7 – Feb 27)": "#E63946",
     "3. War\n(Feb 28 – Apr 7)":                 "#FF6B35",
-    "4. Post-Ceasefire\n(Apr 8 – May 14)":      "#4C9AFF",
+    "4. Post-Ceasefire\n(Apr 8 – May 22)":      "#4C9AFF",
 }
 
 # ── 7. Plot ──────────────────────────────────────────────────────────────────
